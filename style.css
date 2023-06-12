@@ -1,6 +1,8 @@
 body{
     background-color: brown;
     text-align: justify;
+    font-family: 'Oswald', sans-serif;
+    font-size:150%
 
 }
 h1{
@@ -12,3 +14,11 @@ h2{
 p{
     color: white;
 }
+.card{
+    background-color: rgb(43, 220, 226);
+
+}
+.id1{
+    width: 320px;
+}
+
