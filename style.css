@@ -20,5 +20,10 @@ p{
 }
 .id1{
     width: 320px;
+    height: 320px;
+}
+.id2{
+    width: 250px;
+    height: 250px;
 }
 
