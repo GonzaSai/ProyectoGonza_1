@@ -14,18 +14,8 @@ h2{
 p{
     color: rgb(255, 217, 0);
 }
-.card{
-    background-color: rgb(255, 255, 255);
-
-}
 .id1{
     width: 320px;
     height: 320px;
 }
-.id2{
-    width: 250px;
-    height: 250px;
-}
-.id3{
-    color: black;
-}
+
