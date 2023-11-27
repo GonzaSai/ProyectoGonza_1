@@ -14,6 +14,8 @@ boton.onclick = function(){
     }
 }
 
+let botonEstadisticas = document.querySelector('#botonEstadisticas')
+
 let texto2 = document.querySelector('#texto2') 
 
 let boton2 = document.querySelector('#boton2')
