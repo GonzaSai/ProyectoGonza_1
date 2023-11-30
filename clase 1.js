@@ -80,3 +80,20 @@ boton5.onclick = function(){
     }
 }
 
+let CambiarTema = document.querySelector('#BotonCambiarTema')
+
+let card1 = document.querySelector('#card1')
+
+let temaCambiado = false;
+
+CambiarTema.onclick = function(){
+    if (temaCambiado == false){
+        card1.background = black
+        temaCambiado = true
+    }else{
+        card1.background = rgb(255, 255, 255)
+        temaCambiado = false
+    }
+    
+}
+
