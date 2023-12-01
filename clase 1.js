@@ -1,3 +1,15 @@
+alert('Holaa, bienvenido a mi página de mejores jugadores. Para comenzar, introduce tu top 5 comenzando desde el quinto al primer puesto')
+
+function crearTuTop(){
+    let Jugador1 = prompt('Introduce un jugador ')
+    let Jugador2 = prompt('Introduce otro jugador ')
+    let Jugador3 = prompt('Introduce otro jugador ')
+    let Jugador4 = prompt('Introduce al segundo mejor jugador de tu top ')
+    let Jugador5 = prompt('Por último, introduce al mejor jugador del top ')
+    return 'Tu top 5 a quedado de la siguiente manera: ' + 'TOP 5: ' + Jugador1 + ' ' + 'TOP 4: ' + Jugador2 + ' ' + 'TOP 3: ' + Jugador3 + ' ' + 'TOP 2: ' + Jugador4 + ' ' + 'TOP 1: ' + Jugador5 + '.' + ' ' + 'Muy bién, ahora te presento mi top.'
+}
+alert(crearTuTop())
+
 let texto = document.querySelector('#texto') 
 
 let boton = document.querySelector('#boton')
@@ -78,22 +90,5 @@ boton5.onclick = function(){
         texto5.innerText = 'Lionel Andrés Messi Cuccittini, conocido como Leo Messi, es un futbolista argentino que juega como delantero. Jugador histórico del Fútbol Club Barcelona...'
         cambiarTexto5 = false
     }
-}
-
-let CambiarTema = document.querySelector('#BotonCambiarTema')
-
-let card1 = document.querySelector('#card1')
-
-let temaCambiado = false;
-
-CambiarTema.onclick = function(){
-    if (temaCambiado == false){
-        card1.background = black
-        temaCambiado = true
-    }else{
-        card1.background = rgb(255, 255, 255)
-        temaCambiado = false
-    }
-    
 }
 
